@@ -103,3 +103,5 @@ We're pursuing EU language equality grants partly because Romanian deserves prop
 ---
 
 *LexicRo — April 2026 — Working in public from day one.*
+
+📖 [Read the full announcement on dev.to](https://dev.to/peterabolins/building-the-romanian-nlp-api-that-should-already-exist-2gg7)
