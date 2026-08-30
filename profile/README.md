@@ -21,7 +21,7 @@ GET /conjugate/{verb}
 
 Where the lexicon knows more than one reading for a token, the response exposes them in `candidates` instead of silently picking one — about 35.68% of tokens carry a `candidates` list, measured on the UD Romanian RRT test split.
 
-`/conjugate` returns a verb's conjugation table.
+`/conjugate` returns a verb's conjugation table — seven moods, and it marks a paradigm as predicted when the conjugator doesn't recognise the verb.
 
 ## Try it
 
@@ -34,15 +34,11 @@ Where the lexicon knows more than one reading for a token, the response exposes 
 The free tier is real and permanent — not a trial. 1,000 requests/day with a key, 10/day
 anonymous.
 
----
-
 ## Versioning
 
 Every response stamps `model_version`. The weights, the lexicon snapshot, and the MSD→UD conversion table version together as one unit, and the engine itself is pinned by tag — so pinning against a `model_version` tells you exactly what you're pinned to.
 
-## License
-
-The core is open source (MIT). Licensing terms for the model weights are still being worked out. The weights themselves are not distributed.
+---
 
 ## Roadmap
 
@@ -66,3 +62,8 @@ We're pursuing EU language-technology funding. If you're at a Romanian universit
 
 **04 — Anyone who's built adjacent to this problem**
 If you've scraped DEXonline, built a Romanian spell checker, worked with the UD treebank, or tried to fine-tune anything on Romanian text — we'd genuinely like to hear what you learned.
+
+## License
+
+The core is open source (MIT). Licensing terms for the model weights are still being worked out. The weights themselves are not distributed.
+
