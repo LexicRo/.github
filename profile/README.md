@@ -52,7 +52,7 @@ We're not starting from scratch. The data and models are there — they just nee
 
 **Models:** Fine-tuning `bert-base-romanian-cased-v1` for morphological tagging. verbecc for conjugation, extended with full B1+ tense coverage. ML-predicted conjugation templates for unknown verbs.
 
-**Infrastructure:** FastAPI, Docker, full OpenAPI spec, Python and JavaScript SDKs.
+**Infrastructure:** FastAPI, Docker, full OpenAPI spec.
 
 ### Roadmap
 
