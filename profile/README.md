@@ -23,6 +23,18 @@ Where the lexicon knows more than one reading for a token, the response exposes 
 
 `/conjugate` returns a verb's conjugation table.
 
+## Try it
+
+- **Demo:** [demo.lexicro.com](https://demo.lexicro.com) — no key required.
+- **Guide:** [api.lexicro.com/guide](https://api.lexicro.com/guide) (`/analyze`) and
+  [api.lexicro.com/guide/conjugate](https://api.lexicro.com/guide/conjugate) (`/conjugate`) — full request/response shapes, rate limits, and known limitations.
+
+## Free tier
+
+The free tier is real and permanent — not a trial. 1,000 requests/day with a key, 10/day
+anonymous.
+
+
 ## Versioning
 
 Every response stamps `model_version`. The weights, the lexicon snapshot, and the MSD→UD conversion table version together as one unit, and the engine itself is pinned by tag — so pinning against a `model_version` tells you exactly what you're pinned to.
@@ -32,7 +44,7 @@ Every response stamps `model_version`. The weights, the lexicon snapshot, and th
 ## Roadmap
 
 | Phase | Scope |
-|---|---|---|
+|---|---|
 | 1 | Conjugation + lexical lookup endpoints · Public launch · Free tier |
 | 2 | Romanian BERT fine-tuning · `/analyze` morphological endpoint |
 | 3 | Grammar checker · CEFR scorer · Pro and Academic tiers |
@@ -55,17 +67,6 @@ We're pursuing EU language-technology funding. If you're at a Romanian universit
 If you've scraped DEXonline, built a Romanian spell checker, worked with the UD treebank, or tried to fine-tune anything on Romanian text — we'd genuinely like to hear what you learned.
 
 ---
-
-## Try it
-
-- **Demo:** [demo.lexicro.com](https://demo.lexicro.com) — no key required.
-- **Guide:** [api.lexicro.com/guide](https://api.lexicro.com/guide) (`/analyze`) and
-  [api.lexicro.com/guide/conjugate](https://api.lexicro.com/guide/conjugate) (`/conjugate`) — full request/response shapes, rate limits, and known limitations.
-
-## Free tier
-
-The free tier is real and permanent — not a trial. 1,000 requests/day with a key, 10/day
-anonymous.
 
 ## License
 
