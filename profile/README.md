@@ -40,7 +40,7 @@ POST /difficulty
 → A1–C2 level estimate, calibrated to Romanian B1/B2 exams
 ```
 
-The core is open source (MIT). Model weights are CC BY-NC — free for research and non-commercial use, commercial use goes through the hosted API. A generous free tier (1,000 req/day, no credit card) from day one.
+The core is open source (MIT). Licensing terms for the model weights are still being worked out. A generous free tier (1,000 req/day, no credit card) from day one.
 
 ---
 
